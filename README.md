@@ -1,7 +1,6 @@
 # Some ComfyUI RunPod Scripts
 ## Who, What, Why...
-- Allows for the automated download of some files upon runpod start
-- The IP and Port constantly changes for deployment so don't bother trying them
+- Allows for the automated download of some files (models - lora - custom_nodes) upon RunPod start to start image generation faster
 - Downloads all models, upscalers, loras from [CivitAI](https://civitai.com/)
 - Custom Nodes are from github
 - Will be adding Control NET
