@@ -1,8 +1,7 @@
-port='YOUR RUNPOD PORT'
-ip='YOUR RUNPOD IP'
-ssh_id='YOUR SSH ID e.g id_ed123456'
-scp -P $port -i ~/.ssh/$ssh_id autodownload.sh root@$ip:/workspace
-scp -P $port -i ~/.ssh/$ssh_id customNodeGit.sh root@$ip:/workspace
-scp -P $port -i ~/.ssh/$ssh_id optionalDelete.sh root@$ip:/workspace
-scp -P $port -i ~/.ssh/$ssh_id cleanup.sh root@$ip:/workspace
-ssh root@$ip -p $port -i ~/.ssh/$ssh_id
+source .env
+
+scp -P $PORT -i ~/.ssh/$SSH_ID autodownload.sh root@$IP:/workspace
+scp -P $PORT -i ~/.ssh/$SSH_ID optionalDelete.sh root@$IP:/workspace
+scp -P $PORT -i ~/.ssh/$SSH_ID cleanup.sh root@$IP:/workspace
+scp -P $PORT -i ~/.ssh/$SSH_ID moremodels.sh root@$IP:/workspace
+ssh root@$IP -p $PORT -i ~/.ssh/$SSH_ID
