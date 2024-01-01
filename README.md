@@ -6,5 +6,10 @@
 - Will be adding Control NET
 - Most models are SDXL (might move to only SDXL files)
 ## Operation:
-1. copyintovm.sh
-2. Run Copied bash scripts in VM
+1. Update copyintovm.sh with your runpod ip port and your ssh info
+2. Update autodownload to include any extra files you want
+3. Run copyintovm.sh (may have to chmod first)
+4. SSH into VM
+5. Run customNodeGit.sh (on RunPod VM)
+6. Restart RunPod machine to update Comfy
+7. Run autodownload.sh (on RunPod VM)
