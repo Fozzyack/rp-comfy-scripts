@@ -1,4 +1,5 @@
 # Some ComfyUI RunPod Scripts
+## Who, What, Why...
 - Allows for the automated download of some files upon runpod start
 - The IP and Port constantly changes for deployment so don't bother trying them
 - Downloads all models, upscalers, loras from [CivitAI](https://civitai.com/)
