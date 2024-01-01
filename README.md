@@ -5,6 +5,7 @@
 - Custom Nodes are from github
 - Will be adding Control NET
 - Most models are SDXL (might move to only SDXL files)
+- Assumes you have set up SSH keys in RunPod
 ## Operation:
 1. Update copyintovm.sh with your runpod ip port and your ssh info
 2. Update autodownload to include any extra files you want
